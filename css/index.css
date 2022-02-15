@@ -105,6 +105,11 @@ max-width: 1200px;
     border: none;
     background-color: rgb(16, 216, 216);
     color: white;
+    transition: all 0.5s;
+}
+.link-button-cita__button-link:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
 }
 .speciality{
     
