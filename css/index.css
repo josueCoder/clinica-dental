@@ -100,3 +100,43 @@ max-width: 1200px;
     background-color: rgb(16, 216, 216);
     color: white;
 }
+.speciality{
+    
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.speciality__image-container{
+    max-width: 500px;
+    margin: 16px 0;
+}
+.image-container__image{
+    width: 100%;
+
+}
+.branch-speciality__title{
+    text-align: center;
+    letter-spacing: 3px;
+}
+.speciality__brach-speciality-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    padding: 5px;
+}
+.branch-speciality__list-container{
+    padding: 0;
+}
+.list__item-speciality{
+    text-align: center;
+    letter-spacing: 2px;
+    list-style: none;
+    background-color: aqua;
+    padding: 6px;
+    margin: 20px 0;
+    
+    border-radius: 15px;
+}
