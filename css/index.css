@@ -152,6 +152,11 @@ max-width: 1200px;
     margin: 20px 0;
     
     border-radius: 15px;
+    transform: all 0.5s;
+}
+.list__item-speciality:hover{
+    transform: scale(1.1);
+    transform: all 0.5s;
 }
 .contacto{
    
