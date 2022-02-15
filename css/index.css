@@ -203,6 +203,11 @@ max-width: 1200px;
     border-radius: 20px;
     border: none;
     background-color: rgb(16, 216, 216);
+    transition: all 0.5s;
+}
+.form__button:hover{
+    background-color: rgb(20, 233, 162);
+    transition: all 0.5s;
 }
 .footer{
     display: flex;
@@ -218,7 +223,13 @@ max-width: 1200px;
 }
 .social-networks__link-icon-container>i{
     font-size: 40px;
+    transition: all 0.5s;
 }
+.social-networks__link-icon-container>i:hover{
+    transform: scale(1.5);
+    transition: all 0.5s;
+}
+
 .footer__credits{
     text-align: center;
     font-weight: 300;
