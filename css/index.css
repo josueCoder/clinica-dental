@@ -116,7 +116,8 @@ max-width: 1200px;
     width: 100%;
 
 }
-.branch-speciality__title{
+.branch-speciality__title,
+.contacto___title{
     text-align: center;
     letter-spacing: 3px;
 }
@@ -134,9 +135,57 @@ max-width: 1200px;
     text-align: center;
     letter-spacing: 2px;
     list-style: none;
-    background-color: aqua;
+    background-color: rgb(16, 216, 216);
+    color: white;
     padding: 6px;
     margin: 20px 0;
     
     border-radius: 15px;
 }
+.contacto{
+   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.contacto___title{
+    font-size: 2rem;
+
+}
+.contacto___title::before{
+ content: "📞";    
+}
+.contacto___title::after{
+  content: "📞";   
+}
+.contacto__form-container{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+    
+    
+}
+
+.form__input{
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+    
+    border-radius: 10px;
+    border: 4px solid rgb(16, 216, 216);
+}
+.form__button{
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(16, 216, 216);
+}
+
