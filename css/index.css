@@ -40,6 +40,12 @@
     padding: 10px;
     border-radius: 20px;
     background-color: rgb(236, 237, 238);
+    transition: all 0.5s;
+}
+.menu-list__list-item:hover{
+    background-color: rgba(64, 165, 223, 0.822);
+    transition: all 0.5s;
+    
 }
 .list-item__link-menu{
     text-decoration: none;
