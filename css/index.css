@@ -1,3 +1,6 @@
+:root{
+    scroll-behavior: smooth;
+}
 .body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
@@ -9,12 +12,18 @@
 .header{
     background-color: rgb(16, 216, 216);
     padding: 0 8px;
+    box-shadow: 0 0.26rem 0 rgba(0, 0, 0, 0.521);
 
 }
 .header__nav{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1024px;
+    padding: 0 0.5rem;
+    margin: auto;
+    
 }
 .nav__logo-container{
     max-width: 60px;
@@ -49,6 +58,7 @@
 }
 .list-item__link-menu{
     text-decoration: none;
+    color: black;
 }
 .article{
    
@@ -220,6 +230,7 @@ max-width: 1200px;
 .social-networks__link-icon-container{
     text-decoration: none;
     margin: 0 20px;
+    color: black;
 }
 .social-networks__link-icon-container>i{
     font-size: 40px;
