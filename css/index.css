@@ -1,0 +1,102 @@
+.body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    
+
+}
+.header{
+    background-color: rgb(16, 216, 216);
+    padding: 0 8px;
+
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo-container{
+    max-width: 60px;
+ 
+    display: flex;
+    margin: 0;
+}
+.logo-container__logo{
+    width: 100%;
+    border-radius: 50%;
+}
+.nav__menu-list-container{
+    display: flex;
+    gap: 6px;
+    padding: 0;
+}
+.menu-list__list-item{
+    font-size: 0.9rem;
+    font-weight: 380;
+    
+    list-style: none;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(236, 237, 238);
+}
+.list-item__link-menu{
+    text-decoration: none;
+}
+.article{
+   
+    display: flex;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    
+}
+.article__main{
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+max-width: 1200px;
+}
+.main__image-container{
+    max-width: 500px;
+    display: flex;
+    margin: 0;
+   
+
+}
+.image-container__image{
+    width: 100%;
+    
+}
+.main__presentation{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+.presentation__title{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 350;
+
+}
+.presentation__description{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    
+
+}
+.link-button-cita__button-link{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(16, 216, 216);
+    color: white;
+}
