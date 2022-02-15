@@ -180,7 +180,7 @@ max-width: 1200px;
     border: 4px solid rgb(16, 216, 216);
 }
 .form__button{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 900;
     letter-spacing: 3px;
     padding: 12px;
@@ -188,4 +188,22 @@ max-width: 1200px;
     border: none;
     background-color: rgb(16, 216, 216);
 }
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap:20px
+}
 
+.social-networks__link-icon-container{
+    text-decoration: none;
+    margin: 0 20px;
+}
+.social-networks__link-icon-container>i{
+    font-size: 40px;
+}
+.footer__credits{
+    text-align: center;
+    font-weight: 300;
+}
